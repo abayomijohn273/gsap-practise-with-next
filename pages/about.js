@@ -3,7 +3,10 @@ import Header from '../components/Header'
 
 const About = () => {
     return (
-        <main>
+        <main style={{
+            background: "blue",
+            height: "100vh"
+        }}>
             <Header />
             About
         </main>
