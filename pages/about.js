@@ -5,8 +5,13 @@ const About = () => {
     return (
         <main style={{
             background: "blue",
-            height: "100vh"
-        }}>
+            width: "70%",
+            height: "50vh",
+            margin: "auto",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center"
+            }}>
             <Header />
             About
         </main>

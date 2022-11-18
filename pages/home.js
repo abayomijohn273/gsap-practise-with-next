@@ -5,7 +5,12 @@ const Home = () => {
   return (
     <main style={{
         background: "green",
-        height: "100vh"
+        width: "70%",
+        height: "50vh",
+        margin: "auto",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center"
     }}>
         <Header />
 
